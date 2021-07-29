@@ -60,5 +60,6 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditOnGitHubLink: true,</>,
+  footerEditOnGitHubLink: true,
+  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
 }
