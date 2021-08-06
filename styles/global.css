@@ -2,3 +2,12 @@
 	font-family: courier;
 	color: red;
 }
+
+.p {
+	font-family: ui-rounded;
+	color: blue;
+}
+
+.a {
+	background-color: yellow;
+}
