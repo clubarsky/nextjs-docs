@@ -1,5 +1,4 @@
 export default {
-  repository: 'https://github.com/shuding/nextra',
   titleSuffix: ' – Nextra',
   logo: (
     <>
@@ -62,4 +61,5 @@ export default {
   footer: true,
   footerEditOnGitHubLink: false,
   footerText: <></>,
+  repository: false, // This removes the github icon!
 }
