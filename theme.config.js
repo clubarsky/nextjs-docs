@@ -59,7 +59,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditOnGitHubLink: false,
+  footerEditOnGitHubLink: false, // reappeared
   footerText: <></>,
-  repository: false, // This removes the github icon!
+  repository: false, // remove github logo 
 }

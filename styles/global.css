@@ -1,6 +1,16 @@
-.body {
-  font-family: courier;
-  color: red;
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, "sans-serif";
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
+ul {
+  margin-top: .1em;
+  margin-bottom:.1em;
+  font-size: 1em;  
 }
 
 .p {

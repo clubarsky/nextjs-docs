@@ -1,8 +1,5 @@
 {
-  "index": "2019",
-  "features": "Features",
-  "docs": "Docs Theme",
-  "blog": "Blog Theme",
-  "advanced": "Advanced"
-  "cv": "About"
+  "index": "Archive",
+  "features": "Work",
+  "info": "Info"
 }
