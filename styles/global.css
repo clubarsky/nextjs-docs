@@ -7,6 +7,12 @@ body, html {
   -moz-osx-font-smoothing:grayscale
 }
 
+div.table-container {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
 td {
   font-size: 8pt;
 }
