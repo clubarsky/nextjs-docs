@@ -1,14 +1,14 @@
-body {
+.body {
   font-family: courier;
   color: red;
 }
 
-p {
+.p {
   font-family: ui-rounded;
   color: blue;
 }
 
-a {
+.a {
   background-color: yellow;
 }
 
