@@ -1,13 +1,17 @@
-.body {
-	font-family: courier;
-	color: red;
+body {
+  font-family: courier;
+  color: red;
 }
 
-.p {
-	font-family: ui-rounded;
-	color: blue;
+p {
+  font-family: ui-rounded;
+  color: blue;
 }
 
-.a {
-	background-color: yellow;
+a {
+  background-color: yellow;
+}
+
+.joo {
+  color: red;
 }

@@ -2,6 +2,8 @@
 
 ### Configurations
 
+{<div className="joo">Hello it's a div</div>}
+
 1. Install Next.js and React: `yarn add next react react-dom`
 
 2. Install Nextra and the blog theme: `yarn add nextra nextra-theme-blog`
@@ -18,11 +20,13 @@ module.exports = withNextra()
 // theme.config.js
 export default {
   footer: <p>MIT 2020 © Shu Ding.</p>,
-  head: <>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Nextra: the next blog builder" />
-    <meta name="og:title" content="Nextra: the next blog builder" />
-  </>
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Nextra: the next blog builder" />
+      <meta name="og:title" content="Nextra: the next blog builder" />
+    </>
+  ),
 }
 ```
 
@@ -36,7 +40,7 @@ export default function Nextra({ Component, pageProps }) {
 }
 ```
 
-5. You are good to go! 
+5. You are good to go!
 
 ---
 
