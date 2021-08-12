@@ -3,9 +3,7 @@ export default {
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Chet Moye</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-        Artist
-      </span>
+      <span className="text-gray-600 font-normal hidden md:inline">Artist</span>
     </>
   ),
   head: (
@@ -61,5 +59,9 @@ export default {
   footer: true,
   footerEditOnGitHubLink: false, // reappeared
   footerText: <></>,
+<<<<<<< HEAD
   repository: false, // remove github logo 
+=======
+  repository: false, // This removes github icon!
+>>>>>>> 4b6bc8d (removing github icon in navbar)
 }
