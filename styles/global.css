@@ -10,6 +10,7 @@ body, html {
 h2 {
   font-size: 1em;
   color: color(srgb 0.588 0.588 0.588);
+  text-align: center;
 }
 
 div.table-container {
