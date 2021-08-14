@@ -1,10 +1,11 @@
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue, Helvetica, "sans-serif";
+  font-family: Helvetica Neue, Helvetica, 'sans-serif';
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing:grayscale
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
 a.detail {
   text-align: center;
   align-content: center;
-  padding: 2rem 1rem; 
+  padding: 2rem 1rem;
 }
 
 div.table-container {
@@ -34,9 +35,9 @@ td {
 }
 
 ul {
-  margin-top: .1em;
-  margin-bottom:.1em;
-  font-size: 1em;  
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-size: 1em;
 }
 
 .p {
@@ -48,6 +49,23 @@ ul {
   background-color: yellow;
 }
 
-.joo {
-  color: red;
+.fit-window-container {
+  display: block;
+  width: 80vw;
+  height: 80vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fit-window-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.thin-border {
+  border: 0.5px solid #999;
+  padding: 4rem 2.5rem;
 }
