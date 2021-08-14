@@ -1,32 +1,30 @@
-# Next.js SSG in MDX
+import Image from 'next/image'
+import Bleed from 'nextra-theme-docs/bleed'
+import ReactPlayer from 'react-player';
 
-import { useSSG } from 'nextra/ssg'
 
-export const getStaticProps = ({ params }) => {
-  return fetch('https://api.github.com/repos/shuding/nextra')
-    .then(res => res.json())
-    .then(repo => ({
-      props: {
-        // We return an `ssg` object in the props.
-        ssg: {
-          stars: repo.stargazers_count
-        }
-      },
-      revalidate: 5
-    }))
-}
+# Film
+###### Tester
 
-export const StarsRenderer = () => {
-  // And later we can get it inside MDX.
-  const { stars } = useSSG()
-  return <strong>{stars}</strong>
-}
+<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls />
 
-The [Nextra repository](https://github.com/shuding/nextra) has <StarsRenderer/> stars!
+<br/>
+##### This is a description
+##### This is a description
+##### This is a description
+##### This is a description
+<br/>
 
----
 
-The page is prerendered at build time with [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)
-and [Incremental Static Regeneration](https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration).
+<br/>
+##### This is a description
+##### This is a description
+##### This is a description
+##### This is a description
+<br/>
 
-Check the source code for more information.
+
+<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls light
+playIcon={ <div>Icon</div> } />
+
+<iframe width="100%" height="430" src="https://www.youtube.com/embed/3hccXiXI0u8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>

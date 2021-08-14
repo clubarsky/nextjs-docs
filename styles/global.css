@@ -10,7 +10,7 @@ body, html {
 h2 {
   font-size: 1em;
   color: color(srgb 0.588 0.588 0.588);
-  text-align: center;
+  text-align: left;
 }
 
 a.detail {
@@ -25,9 +25,14 @@ div.table-container {
   width: 100%;
 }
 
+table {
+  margin: auto;
+}
+
 td {
   font-size: 8pt;
 }
+
 ul {
   margin-top: .1em;
   margin-bottom:.1em;
