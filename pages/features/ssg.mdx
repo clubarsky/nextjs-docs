@@ -1,31 +1,64 @@
 import Image from 'next/image'
 import Bleed from 'nextra-theme-docs/bleed'
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player'
+import AutoDark from '../components/auto-dark'
 
+[comment]: <> (This will automatically set the theme to dark when page is visited)
+
+<AutoDark />
 
 # Film
+
 ###### Tester
 
-<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls />
+<ReactPlayer
+  url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+  controls
+/>
 
-<br/>
+<br />
 ### This is a description
-<br/>
+<br />
 
-<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls light
-playIcon={ <div>50 Roadways that lead<br/>To Los Angeles</div> } />
-<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls light
-playIcon={ <div>50 Roadways that lead<br/>To Los Angeles</div> } />
+<ReactPlayer
+  url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+  controls
+  light
+  playIcon={
+    <div>
+      50 Roadways that lead
+      <br />
+      To Los Angeles
+    </div>
+  }
+/>
+<ReactPlayer
+  url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+  controls
+  light
+  playIcon={
+    <div>
+      50 Roadways that lead
+      <br />
+      To Los Angeles
+    </div>
+  }
+/>
 
-<br/>
+<br />
+##### This is a description ##### This is a description ##### This is a description
 ##### This is a description
-##### This is a description
-##### This is a description
-##### This is a description
-<br/>
+<br />
 
-
-<ReactPlayer url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" controls light
-playIcon={ <div>Picture of the Artist<br/>Doing Code</div> } />
-
-
+<ReactPlayer
+  url="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+  controls
+  light
+  playIcon={
+    <div>
+      Picture of the Artist
+      <br />
+      Doing Code
+    </div>
+  }
+/>

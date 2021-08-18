@@ -59,5 +59,6 @@ export default {
   footer: true,
   footerEditOnGitHubLink: false, // reappeared
   footerText: <></>,
-  repository: false, // This removes github icon!
+  github: false, // This removes github icon!,
+  defaultMenuCollapsed: true,
 }
